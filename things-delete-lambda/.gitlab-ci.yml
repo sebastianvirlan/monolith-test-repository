@@ -1,0 +1,6 @@
+docker build:
+  script: pwd
+  only:
+    changes:
+      - Dockerfile
+      - things-delete-lambda/*
